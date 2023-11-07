@@ -1,0 +1,5 @@
+<?php
+$RFC_USERNAME = "RFC_PICHIMU";
+$RFC_PASSWORD = "7LR)deEn";
+
+?>
