@@ -1,0 +1,58 @@
+**************************************************************************************************
+****************************************SCRIPTS***************************************************
+**************************************************************************************************
+
+1. migracion_main_prescript.sql
+2. migracion_main_vales.sql
+
+
+
+*************************************************************************************************
+****************************************TABLAS***************************************************
+*************************************************************************************************
+---------------------SISTEMA VALES---------------------
+a) Bases:
+    - admin
+    - vales_usuarioweb
+    - vales_centroweb
+    - vales_equipoweb
+    - vales_grifo
+    - vales_material
+    - vales_setup
+    - vales_usuarioshabilitados
+    - vales_horas
+    - vales_horasviaje
+
+b) Dependientes:
+    - vales_vale
+    - vales_detalle_productos
+    - vales_detalle_asignacion
+    - vales_detalle_img_extras
+    - vales_historial_kilometraje
+    - vales_rfc_logs
+
+---------------------SISTEMA CONTRATOS---------------------
+a) Bases
+    - contract_config_correlativos
+    - contract_area
+    - contract_avance
+    - contract_credito
+    - contract_empresa
+    - contract_formapago
+    - contract_garantia
+    - contract_proveedor
+    - contract_tipocontrato
+    - contract_tipomoneda
+    - contract_usuarioshabilitados
+    - contract_vigenciaformato
+    - contract_modalidadpago
+
+b) Dependientes:
+    - contract_solcontrato
+    - contract_formapao_parntes_detalle
+    - contract_inmuebles_archivos
+    - contract_inmuebles_partregistral
+    - contract_observaciones_ampliaciones
+    - contract_penalidades
+    - contract_movimiento
+    - contract_mov_archivo

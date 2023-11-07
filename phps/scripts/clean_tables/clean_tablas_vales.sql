@@ -1,0 +1,16 @@
+delete from vales_rfc_logs;
+delete from vales_historial_kilometraje;
+delete from vales_detalle_img_extras;
+delete from vales_detalle_asignacion;
+delete from vales_detalle_productos;
+delete from vales_vale;
+delete from vales_horasviaje;
+delete from vales_horas;
+delete from vales_usuarioshabilitados;
+delete from vales_setup;
+delete from vales_material;
+delete from vales_grifo;
+delete from vales_equipoweb;
+delete from vales_centroweb;
+delete from vales_usuarioweb;
+delete from admin;
