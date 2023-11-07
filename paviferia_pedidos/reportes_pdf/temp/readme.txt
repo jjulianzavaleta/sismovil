@@ -1,0 +1,1 @@
+Aqui se guardan todos los archivos temporales creados del sistema paviferia
