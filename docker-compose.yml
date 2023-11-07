@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  php:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html/
+
+  db:
+    image: postgres:9.6.1
+    ports:
+        - "5432:5432"
+    environment:
+        POSTGRES_PASSWORD: dbpass
+        POSTGRES_DB: sismovil
+
+  pgadmin:
+    container_name: pgadmin4_container
+    image: dpage/pgadmin4
+    environment:
+        PGADMIN_DEFAULT_EMAIL: admin@admin.com
+        PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+        - "5050:80"
