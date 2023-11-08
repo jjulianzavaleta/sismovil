@@ -2,9 +2,12 @@
 
 function conectarBD(){
 
+	//$serverName = "10.152.1.18";
+	//$connectionInfo = array( "Database"=>'sismovil_test', "UID"=>'sa', "PWD"=>'Gb1586i');
 	$serverName = "10.100.123.13";
-	$connectionInfo = array( "Database"=>'db_sismovil', "UID"=>'dbamovil', "PWD"=>'.Lk4$B_x!{fgd=');
-	$conn = sqlsrv_connect( $serverName, $connectionInfo);
+        $connectionInfo = array( "Database"=>'db_sismovil', "UID"=>'dbamovil', "PWD"=>'.Lk4$B_x!{fgd=');
+
+        $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 	if( $conn ) {
 		 

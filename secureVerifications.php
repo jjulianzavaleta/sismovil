@@ -37,7 +37,7 @@ if($detect->isMobile() || $detect->isTablet()) {
 /*Verificaciones la URL*/
 /*------------------------------------------------*/
 $current_url 		= $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-$supported_url 		= "sismovil.chimuagropecuaria.com.pe/";
+$supported_url 		= "testsismovil.chimuagropecuaria.com.pe/";
 
 if( strpos($supported_url,$current_url) === false ){
 	header("Location: http://".$supported_url);

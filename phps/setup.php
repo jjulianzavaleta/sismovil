@@ -7,11 +7,11 @@ class ProjectManager
   }
   
   public static function projectURL(){
-	return "http://sismovil.chimuagropecuaria.com.pe";
+	return "http://testsismovil.chimuagropecuaria.com.pe";
   }
 
   public static function adminEmail(){
-    return "lvera@chimuagropecuaria.com.pe";
+    return "jjulianz@chimuagropecuaria.com.pe";
   }
 
   public static function legalEmail(){
